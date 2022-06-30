@@ -1,0 +1,1087 @@
+  .navbar{
+    background-color: white;
+    box-shadow: 0 0 5px 0 #888888;
+  }
+  .navbar .navbar-brand{
+    font-size: 28px;
+    color: #23AEE2;
+  }
+  .navbar .navbar-brand:hover{
+    color: #23AEE2;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    font-size: 17px;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #23AEE2;
+  }
+
+  .wrapperBanner{
+    position: relative;
+    width: 100%;
+  }
+  .wrapperBanner .banner_img{
+    display: block;
+    width: 100%;
+  }
+  .wrapperBanner .banner_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 174, 226, 0.7);
+    color: white;
+    font-size: 52px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapperBanner .banner_overlay .banner_title .banner-p{
+    padding: 0 8rem;
+    font-size: 36px;
+  }
+  .wrapperAbout{
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    margin-top: -35px;
+  }
+  p{
+    margin-bottom: .5rem;
+  }
+  .wrapperAbout .contentAbout{
+    padding: 2rem 0;
+  }
+  .wrapperAbout .contentAbout .about_title{
+    font-size: 48px;
+    color: #615C5B;
+  }
+  .wrapperAbout .contentAbout .about_desc{
+    font-size: 20px;
+    color: #615C5B;
+    padding: 0 24rem;
+  }
+
+  .wrapperService h1{
+    margin-top: 4rem;
+  }
+  .wrapperService .wrapperContent .card-service{
+    background-color: #23AEE2;
+    margin: 1rem .8rem;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+  .wrapperService .wrapperContent .card-service:hover{
+    transition: all .3s ease-out;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .wrapperService .wrapperContent .card-service .card_desc{
+    font-size: 18px;
+  }
+
+  .wrapperProject h1{
+    margin-top: 4rem;
+  }
+  .wrapperProject .contentProject .middle{
+    margin-top: 7rem;
+  }
+  .wrapperProject .contentProject .cardProject{
+    position: relative;
+    width: 100%;
+  }
+  .wrapperProject .contentProject .cardProject .project_img{
+    display: block;
+    width: 100%;
+  }
+  .wrapperProject .contentProject .cardProject .project_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+    font-size: 16px;
+  }
+  .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+    font-size: 28px;
+  }
+  .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+    padding-top: 8rem;
+    font-size: 22px;
+  }
+  .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+    background-color: #23AEE2;
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    color: white;
+  }
+
+  .wrapperKol h1{
+    margin-top: 4rem;
+  }
+  .wrapperKol .meaningKol .title{
+    font-size: 36px;
+  }
+  .wrapperKol .meaningKol .desc{
+    font-size: 22px;
+  }
+  .wrapperKol .pictureKol .cardPicture{
+    width: 340px;
+    height: 400px;
+  }
+  .wrapperKol .pictureKol .cardPicture img{
+    max-width: 340px;
+    max-height: 400px;
+    border-radius: 30px 0 30px 0;
+  }
+  .wrapperKol .pictureKol .title{
+    font-size: 24px;
+  }
+  .wrapperKol .pictureKol .desc{
+    padding: 0 2rem;
+    font-size: 16px;
+  }
+
+  .wrapperExperienc h1{
+    margin-top: 4rem;
+  }
+  .wrapperExperienc .experienc .title{
+    font-size: 36px;
+  }
+  .wrapperExperienc .experienc .desc{
+    font-size: 22px;
+  }
+  .speaker img{
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+  .wrapperTestimoni h1{
+    margin-top: 4rem;
+  }
+
+  .footerUp .navbar-brand{
+    font-size: 36px;
+    color: #23AEE2;
+  }
+  .footerUp .navbar-brand p{
+    margin-top: -10px;
+  }
+  .footerUp .addres{
+    font-size: 22px;
+  }
+  .footerUp .service{
+    color: #615C5B;
+  }
+
+  iframe{
+    width: 560px;
+    height: 315px;
+  }
+
+
+  @media screen and (max-width: 512px){
+    .navbar .navbar-brand svg{
+      width: 36px;
+      height: 36px;
+    }
+
+    .wrapperBanner .banner_overlay{
+      font-size: 22px;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 2rem;
+      font-size: 13px;
+    }
+
+    .wrapperAbout{
+      background-color: white;
+      border-radius: 20px 20px 0 0;
+      margin-top: -15px;
+    }
+    .wrapperAbout .contentAbout{
+      padding: 1rem 1rem;
+    }
+    .wrapperAbout .contentAbout .about_title{
+      font-size: 18px;
+    }
+    .wrapperAbout .contentAbout .about_desc{
+      font-size: 12px;
+      padding: 0 1rem;
+    }
+
+    .wrapperService h1{
+      font-size: 24px;
+      margin-top: .5rem;
+    }
+    .wrapperService .wrapperContent .card-service .card_desc{
+      font-size: 14px;
+    }
+
+    .wrapperProject h1{
+      font-size: 24px;
+      margin-top: 1.5rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title{
+      padding: 1.5rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 12px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 20px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 4.5rem;
+      font-size: 16px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+      font-size: 12px;
+    }
+    .wrapperProject .contentProject .middle{
+      margin-top: 0;
+    }
+    .wrapperProject .contentProject .cardProject{
+      margin: .5rem 0;
+    }
+
+    .wrapperKol h1{
+      margin-top: 1rem;
+      font-size: 24px;
+    }
+    .wrapperKol h2{
+      font-size: 22px;
+    }
+    .wrapperKol .meaningKol .title{
+      font-size: 22px;
+    }
+    .wrapperKol .meaningKol .desc{
+      font-size: 16px;
+    }
+    .wrapperKol .pictureKol .cardPicture{
+      width: 290px;
+      height: 345px;
+    }
+    .wrapperKol .pictureKol .cardPicture img{
+      max-width: 290px;
+      max-height: 345px;
+    }
+    .wrapperKol .pictureKol .title{
+      font-size: 22px;
+    }
+    .wrapperKol .pictureKol .desc{
+      font-size: 14px;
+    }
+
+    .wrapperExperienc h1{
+      margin: 1.5rem;
+      font-size: 24px;
+    }
+    .wrapperExperienc .experienc .title{
+      font-size: 22px;
+    }
+    .wrapperExperienc .experienc .desc{
+      font-size: 16px;
+    }
+    .speaker img{
+      max-width: 140px;
+      max-height: 180px;
+    }
+
+    .wrapperTestimoni h1{
+      margin-top: 1rem;
+      font-size: 24px;
+    }
+
+    .footerUp .coll{
+      text-align: center;
+    }
+    .footerUp .coll .addres{
+      font-size: 16px;
+      padding: 0 .5rem;
+    }
+    .footerUp .navbar-brand {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+    }
+    .footerUp .navbar-brand svg{
+      width: 30px;
+      height: 30px;
+    }
+    .footerUp .navbar-brand p{
+      margin-top: -5px;
+    }
+    .footerUp .service{
+      text-align: center;
+    }
+    .footerUp .contact{
+      justify-content: center;
+    }
+
+    .footerDown .wrapperContent p{
+      font-size: 14px;
+    }
+    .footerDown .wrapperContent .link a{
+      font-size: 14px;
+    }
+    .footerDown .wrapperContent .link p{
+      font-size: 14px;
+    }
+
+    .services{
+      margin-bottom: 2rem;
+    }
+    .services .title{
+      font-size: 22px;
+    }
+    .services .desc{
+      font-size: 16px;
+    }
+
+    iframe{
+      justify-content: center;
+      width: 100%;
+      height: 230px;
+    }
+  }
+
+  
+  @media screen and (min-width: 350px){
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 2.5rem;
+      font-size: 16px;
+    }
+
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 9rem;
+      font-size: 16px;
+    }
+    .wrapperAbout .contentAbout .about_desc{
+      font-size: 14px;
+      padding: 0 4rem;
+    }
+
+    .services{
+      margin-bottom: 2rem;
+    }
+    .services .title{
+      font-size: 22px;
+    }
+    .services .desc{
+      font-size: 16px;
+    }
+
+    .imgBgCenter{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 400px){
+    .wrapperBanner .banner_overlay{
+      font-size: 24px;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 3rem;
+      font-size: 18px;
+    }
+
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 14px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 22px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 10rem;
+      font-size: 18px;
+    }
+
+    .services{
+      margin-bottom: 2.5rem;
+    }
+    .services .title{
+      font-size: 24px;
+    }
+    .services .desc{
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 460px){
+    .wrapperBanner .banner_overlay{
+      font-size: 26px;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 3rem;
+      font-size: 20px;
+    }
+
+    .wrapperService .wrapperContent .card-service .card_desc{
+      font-size: 16px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 14rem;
+      font-size: 20px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 16px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 24px;
+    }
+
+    .services{
+      margin-bottom: 3rem;
+    }
+    .services .title{
+      font-size: 24px;
+    }
+    .services .desc{
+      font-size: 18px;
+    }
+    
+  }
+
+  @media screen and (min-width: 512px){
+    .navbar .navbar-brand svg{
+      width: 36px;
+      height: 36px;
+    }
+
+    .wrapperBanner .banner_overlay{
+      font-size: 32px;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 4rem;
+      font-size: 22px;
+    }
+
+    .wrapperAbout{
+      background-color: white;
+      border-radius: 20px 20px 0 0;
+      margin-top: -15px;
+    }
+    .wrapperAbout .contentAbout{
+      padding: 1rem 1rem;
+    }
+    .wrapperAbout .contentAbout .about_title{
+      font-size: 22px;
+    }
+    .wrapperAbout .contentAbout .about_desc{
+      font-size: 16px;
+      padding: 0 4rem;
+    }
+
+    .wrapperService h1{
+      font-size: 28px;
+      margin-top: .5rem;
+    }
+    .wrapperService .wrapperContent .card-service .card_desc{
+      font-size: 18px;
+    }
+
+    .wrapperProject h1{
+      font-size: 24px;
+      margin-top: 1.5rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title{
+      padding: 1.5rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 19px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 26px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 17rem;
+      font-size: 22px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+      font-size: 12px;
+    }
+    .wrapperProject .contentProject .middle{
+      margin-top: 0;
+    }
+    .wrapperProject .contentProject .cardProject{
+      margin: .5rem 0;
+    }
+
+    .wrapperKol h1{
+      margin-top: 1rem;
+      font-size: 24px;
+    }
+    .wrapperKol h2{
+      font-size: 22px;
+    }
+    .wrapperKol .meaningKol .title{
+      font-size: 22px;
+    }
+    .wrapperKol .meaningKol .desc{
+      font-size: 16px;
+    }
+    .wrapperKol .pictureKol .cardPicture{
+      width: 220px;
+      height: 260px;
+    }
+    .wrapperKol .pictureKol .cardPicture img{
+      max-width: 220px;
+      max-height: 260px;
+    }
+    .wrapperKol .pictureKol .title{
+      font-size: 22px;
+    }
+    .wrapperKol .pictureKol .desc{
+      font-size: 14px;
+    }
+
+    .wrapperExperienc h1{
+      margin: 1.5rem;
+      font-size: 24px;
+    }
+    .wrapperExperienc .experienc .title{
+      font-size: 22px;
+    }
+    .wrapperExperienc .experienc .desc{
+      font-size: 16px;
+    }
+    .speaker img{
+      max-width: 140px;
+      max-height: 180px;
+    }
+
+    .wrapperTestimoni h1{
+      margin-top: 1rem;
+      font-size: 24px;
+    }
+
+    .footerUp .coll{
+      text-align: center;
+    }
+    .footerUp .coll .addres{
+      font-size: 16px;
+      padding: 0 .5rem;
+    }
+    .footerUp .navbar-brand {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+    }
+    .footerUp .navbar-brand svg{
+      width: 30px;
+      height: 30px;
+    }
+    .footerUp .navbar-brand p{
+      margin-top: -5px;
+    }
+    .footerUp .service{
+      text-align: center;
+    }
+    .footerUp .contact{
+      justify-content: center;
+    }
+
+    .footerDown .wrapperContent p{
+      font-size: 14px;
+    }
+    .footerDown .wrapperContent .link a{
+      font-size: 14px;
+    }
+    .footerDown .wrapperContent .link p{
+      font-size: 14px;
+    }
+
+    .services{
+      margin-bottom: 3rem;
+    }
+    .services .title{
+      font-size: 24px;
+    }
+    .services .desc{
+      font-size: 18px;
+    }
+
+    iframe{
+      justify-content: center;
+      width: 100%;
+      height: 230px;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 6rem;
+      font-size: 28px;
+    }
+    .wrapperService .wrapperContent .card-service{
+      background-color: #23AEE2;
+      margin: 1rem 0.2rem;
+      border-radius: 20px;
+      padding: .5rem;
+    }
+    .wrapperProject h1{
+      font-size: 28px;
+      margin-top: 1.5rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title{
+      padding: 1rem;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 10px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 18px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 1.2rem;
+      font-size: 14px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+      font-size: 12px;
+    }
+    .wrapperProject .contentProject .middle{
+      margin-top: 0;
+    }
+    .wrapperProject .contentProject .cardProject{
+      margin: .5rem 0;
+    }
+
+    .services{
+      margin-bottom: 4rem;
+    }
+    .services .title{
+      font-size: 28px;
+    }
+    .services .desc{
+      font-size: 20px;
+    }
+
+  }
+
+  @media screen and (min-width: 1024px){
+    .navbar{
+      background-color: white;
+      box-shadow: 0 0 5px 0 #888888;
+    }
+    .navbar .navbar-brand{
+      font-size: 28px;
+      color: #23AEE2;
+    }
+    .navbar .navbar-brand:hover{
+      color: #23AEE2;
+    }
+    .navbar-light .navbar-nav .nav-link{
+      font-size: 17px;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+      color: #23AEE2;
+    }
+  
+    .wrapperBanner{
+      position: relative;
+      width: 100%;
+    }
+    .wrapperBanner .banner_img{
+      display: block;
+      width: 100%;
+    }
+    .wrapperBanner .banner_overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(35, 174, 226, 0.7);
+      color: white;
+      font-size: 52px;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 8rem;
+      font-size: 32px;
+    }
+
+    .wrapperAbout{
+      position: relative;
+      z-index: 99;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border-radius: 40px 40px 0 0;
+      margin-top: -35px;
+    }
+    p{
+      margin-bottom: .5rem;
+    }
+    .wrapperAbout .contentAbout{
+      padding: 2rem 0;
+    }
+    .wrapperAbout .contentAbout .about_title{
+      font-size: 48px;
+      color: #615C5B;
+    }
+    .wrapperAbout .contentAbout .about_desc{
+      font-size: 20px;
+      color: #615C5B;
+      padding: 0 12rem;
+    }
+  
+    .wrapperService h1{
+      margin-top: 4rem;
+    }
+    .wrapperService .wrapperContent .card-service{
+      background-color: #23AEE2;
+      margin: 1rem .8rem;
+      border-radius: 20px;
+      padding: 1rem;
+    }
+    .wrapperService .wrapperContent .card-service .card_desc{
+      font-size: 18px;
+    }
+  
+    .wrapperProject h1{
+      margin-top: 4rem;
+    }
+    .wrapperProject .contentProject .middle{
+      margin-top: 7rem;
+    }
+    .wrapperProject .contentProject .cardProject{
+      position: relative;
+      width: 100%;
+    }
+    .wrapperProject .contentProject .cardProject .project_img{
+      display: block;
+      width: 100%;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 14px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 24px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 2.5rem;
+      font-size: 20px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+      background-color: #23AEE2;
+      border-radius: 25px;
+      padding: .5rem 2rem;
+      color: white;
+    }
+  
+    .wrapperKol h1{
+      margin-top: 4rem;
+    }
+    .wrapperKol .meaningKol .title{
+      font-size: 36px;
+    }
+    .wrapperKol .meaningKol .desc{
+      font-size: 22px;
+    }
+    .wrapperKol .pictureKol .cardPicture{
+      width: 290px;
+      height: 350px;
+    }
+    .wrapperKol .pictureKol .cardPicture img{
+      max-width: 290px;
+      max-height: 350px;
+      border-radius: 30px 0 30px 0;
+    }
+    .wrapperKol .pictureKol .title{
+      font-size: 24px;
+    }
+    .wrapperKol .pictureKol .desc{
+      padding: 0 2rem;
+      font-size: 16px;
+    }
+  
+    .wrapperExperienc h1{
+      margin-top: 4rem;
+    }
+    .wrapperExperienc .experienc .title{
+      font-size: 36px;
+    }
+    .wrapperExperienc .experienc .desc{
+      font-size: 22px;
+    }
+    .speaker img{
+      max-width: 200px;
+      max-height: 300px;
+    }
+  
+    .wrapperTestimoni h1{
+      margin-top: 4rem;
+    }
+  
+    .footerUp{
+      margin-top: 4rem;
+    }
+    .footerUp .navbar-brand{
+      font-size: 36px;
+      color: #23AEE2;
+    }
+    .footerUp .navbar-brand p{
+      margin-top: -10px;
+    }
+    .footerUp .addres{
+      font-size: 22px;
+    }
+    .footerUp .service{
+      color: #615C5B;
+    }
+
+    .services{
+      margin-bottom: 6rem;
+    }
+    .services .title{
+      font-size: 36px;
+    }
+    .services .desc{
+      font-size: 24px;
+    }
+  
+    iframe{
+      width: 460px;
+      height: 315px;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    .navbar{
+      background-color: white;
+      box-shadow: 0 0 5px 0 #888888;
+    }
+    .navbar .navbar-brand{
+      font-size: 36px;
+      color: #23AEE2;
+    }
+    .navbar .navbar-brand:hover{
+      color: #23AEE2;
+    }
+    .navbar-light .navbar-nav .nav-link{
+      font-size: 17px;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+      color: #23AEE2;
+    }
+  
+    .wrapperBanner{
+      position: relative;
+      width: 100%;
+    }
+    .wrapperBanner .banner_img{
+      display: block;
+      width: 100%;
+    }
+    .wrapperBanner .banner_overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(35, 174, 226, 0.7);
+      color: white;
+      font-size: 52px;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrapperBanner .banner_overlay .banner_title .banner-p{
+      padding: 0 8rem;
+      font-size: 36px;
+    }
+
+    .wrapperAbout{
+      position: relative;
+      z-index: 99;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border-radius: 40px 40px 0 0;
+      margin-top: -35px;
+    }
+    p{
+      margin-bottom: .5rem;
+    }
+    .wrapperAbout .contentAbout{
+      padding: 2rem 0;
+    }
+    .wrapperAbout .contentAbout .about_title{
+      font-size: 48px;
+      color: #615C5B;
+    }
+    .wrapperAbout .contentAbout .about_desc{
+      font-size: 20px;
+      color: #615C5B;
+      padding: 0 24rem;
+    }
+  
+    .wrapperService h1{
+      margin-top: 4rem;
+    }
+    .wrapperService .wrapperContent .card-service{
+      background-color: #23AEE2;
+      margin: 1rem .8rem;
+      border-radius: 20px;
+      padding: 1rem;
+    }
+    .wrapperService .wrapperContent .card-service .card_desc{
+      font-size: 18px;
+    }
+  
+    .wrapperProject h1{
+      margin-top: 4rem;
+    }
+    .wrapperProject .contentProject .middle{
+      margin-top: 7rem;
+    }
+    .wrapperProject .contentProject .cardProject{
+      position: relative;
+      width: 100%;
+    }
+    .wrapperProject .contentProject .cardProject .project_img{
+      display: block;
+      width: 100%;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .case{
+      font-size: 16px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .title{
+      font-size: 28px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .desc{
+      padding-top: 8rem;
+      font-size: 22px;
+    }
+    .wrapperProject .contentProject .cardProject .project_overlay .project_title .btn-project{
+      background-color: #23AEE2;
+      border-radius: 25px;
+      padding: .5rem 2rem;
+      color: white;
+    }
+  
+    .wrapperKol h1{
+      margin-top: 4rem;
+    }
+    .wrapperKol .meaningKol .title{
+      font-size: 36px;
+    }
+    .wrapperKol .meaningKol .desc{
+      font-size: 22px;
+    }
+    .wrapperKol .pictureKol .cardPicture{
+      width: 340px;
+      height: 400px;
+    }
+    .wrapperKol .pictureKol .cardPicture img{
+      max-width: 340px;
+      max-height: 400px;
+      border-radius: 30px 0 30px 0;
+    }
+    .wrapperKol .pictureKol .title{
+      font-size: 24px;
+    }
+    .wrapperKol .pictureKol .desc{
+      padding: 0 2rem;
+      font-size: 16px;
+    }
+  
+    .wrapperExperienc h1{
+      margin-top: 4rem;
+    }
+    .wrapperExperienc .experienc .title{
+      font-size: 36px;
+    }
+    .wrapperExperienc .experienc .desc{
+      font-size: 22px;
+    }
+    .speaker img{
+      max-width: 200px;
+      max-height: 300px;
+    }
+  
+    .wrapperTestimoni h1{
+      margin-top: 4rem;
+    }
+  
+    .footerUp .navbar-brand{
+      font-size: 36px;
+      color: #23AEE2;
+    }
+    .footerUp .navbar-brand p{
+      margin-top: -10px;
+    }
+    .footerUp .addres{
+      font-size: 22px;
+    }
+    .footerUp .service{
+      color: #615C5B;
+    }
+    
+    .services{
+      margin-bottom: 6rem;
+    }
+    .services .title{
+      font-size: 36px;
+    }
+    .services .desc{
+      font-size: 24px;
+    }
+
+    .imgBgCenter{
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    iframe{
+      width: 560px;
+      height: 315px;
+    }
+  }
